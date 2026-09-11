@@ -86,7 +86,7 @@ print(g)
 h = int(b)
 print(h)
 
-# i wept at the conclusion of the film when stringius uttered "it is stringin time" and strung all around
+# i cried at the end of the movie when stringius said "it's stringin time" and strung all over
 
 s1 = 'gn'
 s2 = ' and '
@@ -97,11 +97,78 @@ print(end)
 print(end + '\n')
 print('balls' + '\n')
 
-# i bawled at the closing of the motion picture when mathlibrarius declared "it is now mathlibrarin time" and mathlibraried all across
-# min, max, n sqrt
+# i cried at the end of the movie when mathlibrarius said "it's mathlibrarin time" and mathlibraried all over
 
 import math
 print(math.sqrt(67))
 print(math.ceil(41.34))
 print(math.floor(17.69))
 print(math.pow(4, 48))
+
+# i cried at the end of the movie when condicius said "it's conditionin time" and conditioned all over
+
+pppp = False
+nopp = True
+# as a reminder!!
+
+if pppp:
+    print("uujujujhjnhjnhj")
+elif nopp:
+    print("sdljsdfjjfsdfjnnsdncjjjfjnigaijsdjfji")
+else:
+    print("dfvnjnjdvf")
+
+if 1 >= 5 and 2 == 2: 
+    print("dih")
+elif 7 != 7 or 4 ** 2 >= 17:
+    print("fih")
+elif 89 <= 87:
+    print("pih")
+else: 
+    print("broken heart emoji")
+
+print('\n','wow im inconsistent with the apostrophes and quotation marks but you cannot see shit in the output','\n')
+
+# i cried at the end of the movie with listius said "it's listin time" and listed all over
+# lists can kinda almost mayhaps hold anything
+# 0 is the first 1???? index smth smth idk
+# what are we talkin bout big h
+
+myepiclist = ['5', '34', 'e621.net', False, '64', "nig", 'ht']
+print(myepiclist) # fyi that site is not good
+print(myepiclist[1])
+print(myepiclist[3])
+print(myepiclist[5], myepiclist[6])
+print(myepiclist[-1])
+print(myepiclist[-2])
+print(myepiclist[0] + myepiclist[1])
+
+myepiclist[1] = 'r34.app'
+print(myepiclist)
+# that site is not good either
+print('\n')
+
+# ok im bored it's loopin time
+
+i = 1
+while i <= 67:
+    print(i)
+    i += 0.0001
+
+# i cried at the end of the movie when listmethodius said "it's listmethodin time" and listmethoded all over
+
+words = []
+
+words.append("hi")
+words.append("i")
+words.append("am")
+words.append("quite")
+words.append("tuff")
+print(words)
+
+words.remove("hi")
+words.insert(2, "not")
+words[3] = "at all"
+length = len(words)
+print(words)
+print(length)
