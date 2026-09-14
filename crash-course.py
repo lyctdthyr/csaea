@@ -151,9 +151,9 @@ print('\n')
 # ok im bored it's loopin time
 
 i = 1
-while i <= 67:
+while i <= 60:
     print(i)
-    i += 0.0001
+    i += 1
 
 # i cried at the end of the movie when listmethodius said "it's listmethodin time" and listmethoded all over
 
@@ -172,3 +172,67 @@ words[3] = "at all"
 length = len(words)
 print(words)
 print(length)
+
+# fuck you too big h
+# iterations
+# for loop time
+# this bum ass thing will print over a range
+# range is usually numbers but words can wrok too i guess
+# fuck you too big h
+
+print('\n')
+fuck = ["kaldsjf","treny","ejkbnvnnnnnn"]
+for x in fuck:
+    print(x)
+
+for x in range(23):
+    print(x)
+
+keysmash = ["jkernv","lkdfjnvgdfhvio","kdfvmonfvi","wknvrjnkjnnnnnn","lwnrlnj"]
+print(f"List:{keysmash}")
+for pain in keysmash:
+    print(f"sjfvnjsnvnv {pain}")
+
+for characters in "nhjnhjjhn":
+    print(characters)
+
+# that fuckr
+# break time
+
+for pain in keysmash:
+    print(pain)
+    if pain == "kdfvmonfvi":
+        break
+
+print('\n') # again but different
+
+for pain in keysmash:
+    if pain == "kdfvmonfvi":
+        break
+    print(pain)
+
+# wow i can fucking print the count of the values in nums
+# fuck
+print('\n')
+nums = [6,7,8,9,]
+for n in range(len(nums)):
+    print(n + 1)
+#                                   this little shit
+# ^
+# | do this instead of hard coding some bs like:
+# | for n in range(0,4)
+# |    print(nums[n])
+
+# let's do this again.
+print('\n')
+r = 0
+while r < 5:
+    print("fault")
+    r += 1
+
+tf = 18
+while tf > 0:
+    tf -= 1
+    print(tf)
+else:
+    print("sfnksdsdfnj")
