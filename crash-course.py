@@ -173,12 +173,11 @@ length = len(words)
 print(words)
 print(length)
 
-# fuck you too big h
+# fuck
 # iterations
 # for loop time
 # this bum ass thing will print over a range
 # range is usually numbers but words can wrok too i guess
-# fuck you too big h
 
 print('\n')
 fuck = ["kaldsjf","treny","ejkbnvnnnnnn"]
@@ -236,3 +235,18 @@ while tf > 0:
     print(tf)
 else:
     print("sfnksdsdfnj")
+
+# i cried at the end of the movie when tuplius said "it's tuplin time" and tupled all over
+# tuples can be created without parentheses
+# this guys are lowkey unchangeable and allow duplicate values
+# their order is defined and will never change unless
+# unless
+
+cooltuple = "ngnljwaglk","apple","dih",9889,"apple"
+print(cooltuple)
+# yadayadada use len() to tell length obviously
+print(len(cooltuple))
+
+# tuples with one value must have a comma afterwards or else ts not tuple
+hh = ("sdnnn") # not tuple
+hhh = ("sdnnn",) # yes tuple
