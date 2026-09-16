@@ -238,15 +238,23 @@ else:
 
 # i cried at the end of the movie when tuplius said "it's tuplin time" and tupled all over
 # tuples can be created without parentheses
-# this guys are lowkey unchangeable and allow duplicate values
+# or with them. yh
+# thrse guys are lowkey unchangeable and allow duplicate values
 # their order is defined and will never change unless
 # unless
 
-cooltuple = "ngnljwaglk","apple","dih",9889,"apple"
+cooltuple = "ngnljwaglk","apple","dih",9889,"apple",c
 print(cooltuple)
 # yadayadada use len() to tell length obviously
 print(len(cooltuple))
 
 # tuples with one value must have a comma afterwards or else ts not tuple
-hh = ("sdnnn") # not tuple
-hhh = ("sdnnn",) # yes tuple
+hh = ("sdnnn") # no tuple
+hhh = ("sdnnn",) # yes tuple. prints with parentheses and comma
+
+# for some reason you don't need a comma if your tuple is fukcing empyt
+hhhh = () # yes tuple. prints just the parentheses
+# hhhhh = (,) no tuple. won't run if uncommented
+# tragic
+print(hh,hhh,hhhh)
+
