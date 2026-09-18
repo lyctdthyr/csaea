@@ -14,7 +14,7 @@ print(a, b, c, d, e)
 
 # these are some epic operations:
 # + - * /
-# % <-- modulus
+# % <-- modulus, division but like... remainder
 # ** <-- exponent
 
 # compound functions are:
@@ -241,9 +241,10 @@ else:
 # or with them. yh
 # thrse guys are lowkey unchangeable and allow duplicate values
 # their order is defined and will never change unless
-# unless
 
-cooltuple = "ngnljwaglk","apple","dih",9889,"apple",c
+# any data type goes
+
+cooltuple = "ngnljwaglk","apple",True,9889,"apple",c
 print(cooltuple)
 # yadayadada use len() to tell length obviously
 print(len(cooltuple))
