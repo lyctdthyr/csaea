@@ -173,15 +173,14 @@ length = len(words)
 print(words)
 print(length)
 
-# fuck
 # iterations
 # for loop time
 # this bum ass thing will print over a range
 # range is usually numbers but words can wrok too i guess
 
 print('\n')
-fuck = ["kaldsjf","treny","ejkbnvnnnnnn"]
-for x in fuck:
+ahh = ["kaldsjf","treny","ejkbnvnnnnnn"]
+for x in ahh:
     print(x)
 
 for x in range(23):
@@ -210,13 +209,11 @@ for pain in keysmash:
         break
     print(pain)
 
-# wow i can fucking print the count of the values in nums
-# fuck
+# wow i can print the count of the values in nums
 print('\n')
 nums = [6,7,8,9,]
 for n in range(len(nums)):
     print(n + 1)
-#                                   this little shit
 # ^
 # | do this instead of hard coding some bs like:
 # | for n in range(0,4)
@@ -258,4 +255,3 @@ hhhh = () # yes tuple. prints just the parentheses
 # hhhhh = (,) no tuple. won't run if uncommented
 # tragic
 print(hh,hhh,hhhh)
-
