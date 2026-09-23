@@ -56,6 +56,7 @@ print(nums[-len(nums)])
 # it counts backwards 5 numbers, which returns to 34, the first value
 # it prints 34 of the array
 # i think im bad at this sorry
+# ayy im correct im goated
 
 for i in range(10, 0, -3):
     print(i)
