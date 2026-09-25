@@ -3,7 +3,7 @@
 bill = 50
 
 # yadayada
-print(f"A 20% tip would be ${bill * 0.2} and the total amount being payed would be ${bill * 1.2}.", "\n")
+print(f"A 20% tip would be ${bill * 0.2} and the total amount being payed would be ${bill * 1.2}. \n")
 
 # "You are ordering pizza for your class. Use the math library to calculate how many whole pizzas to order, then print how many extra slices will be left over. Use the math library and math operators."
 # Given:
@@ -14,7 +14,7 @@ slices_per_student = 2
 slices_per_pizza = 8
 
  # i hate this already
-print(f"There'd need to be {math.ceil(students * slices_per_student / slices_per_pizza)} pizzas, which would leave {students * slices_per_student % slices_per_pizza} extra slices for me.", "\n")
+print(f"There'd need to be {math.ceil(students * slices_per_student / slices_per_pizza)} pizzas, which would leave {students * slices_per_student % slices_per_pizza} extra slices for me. \n")
 
 # "A weather app gets temperatures in Fahrenheit. Convert to Celsius using C = (F - 32) * 5 / 9 and print the result in a full sentence. Use math operators and an f-string."
 # shut up goddamn
@@ -23,7 +23,7 @@ fahrenheit = 212
  
 # huh
 celsius = (fahrenheit - 32) * 5 / 9
-print(f"This is a full sentence and {fahrenheit} degrees Fahrenheit is {int(celsius)} degrees celsius.", "\n")
+print(f"This is a full sentence and {fahrenheit} degrees Fahrenheit is {int(celsius)} degrees celsius. \n")
 
 # "Print the letter grade: 90+ is A, 80+ is B, 70+ is C, 60+ is D, anything lower is F. Change the score to test every grade. Use conditionals (if, elif, else) and comparisons."
 # fuck
@@ -75,5 +75,33 @@ print("\n")
 height = 50
 age = 8
 has_adult = True
+ 
+# <Your Code Here>
+if height < 48:
+    print("ge tout")
+if height >= 48:
+    print("aight twin...")
+    if age < 10:
+        if has_adult == False:
+            print("ge tout")
+        else:
+            print("go")
+    else:
+        print("go")
+print("\n")
+
+# ""
+# Given:
+first = "Ada"
+last = "Lovelace"
+school = "CSAEA"
+ 
+# who wants their last name to be lovelace cro
+print(first + last + school)
+print("just so you know putting your full name in a username is like... \n", "against internetting 101 gng \n")
+
+# "The list holds the prices of the items in a shopping cart. Use a loop to add them up and print the total and the number of items. Use a for loop and len()."
+# Given:
+cart = [12, 5, 30, 8]
  
 # <Your Code Here>
