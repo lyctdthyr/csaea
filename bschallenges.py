@@ -105,3 +105,29 @@ print("just so you know putting your full name in a username is like... \n", "ag
 cart = [12, 5, 30, 8]
  
 # <Your Code Here>
+total = 0
+for i in cart:
+    total += i
+print(f"you gotta pay like ${total} for {len(cart)} items\n")
+
+# "You already have eggs, you need cheese and rice, and apples are the most important item so they go first. Update the list using list methods, then print it and its length. Use list methods."
+# Given:
+groceries = ["milk", "eggs", "bread"]
+ 
+# <Your Code Here>
+groceries.append("cheese")
+groceries.append("rice")
+groceries.insert(0, "apples")
+groceries.remove("eggs")
+print(groceries, "\n")
+
+# "Use a for loop to count down from start to 1, then print "Liftoff!". Use a for loop with range(start, stop, step)."
+# Given:
+start = 10
+ 
+# <Your Code Here>
+start = range(10, 0, -1)
+for i in start:
+    print(i)
+    if i == 1:
+        print("liftoff, i guess")
