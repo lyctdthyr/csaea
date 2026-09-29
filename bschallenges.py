@@ -31,8 +31,10 @@ print(f"This is a full sentence and {fahrenheit} degrees Fahrenheit is {int(cels
 score = 84
  
 # <Your Code Here>
-if score < 60:
-    print("F, you suck lmao")
+if score < 0:
+    print("wow")
+elif 0 <= score < 60:
+    print("F, very impressive...")
 elif 70 > score >= 60:
     print("D, you suck lmao")
 elif 80 > score >= 70:
@@ -79,8 +81,7 @@ has_adult = True
 # <Your Code Here>
 if height < 48:
     print("ge tout")
-if height >= 48:
-    print("aight twin...")
+elif height >= 48:
     if age < 10:
         if has_adult == False:
             print("ge tout")
@@ -121,13 +122,19 @@ groceries.insert(0, "apples")
 groceries.remove("eggs")
 print(groceries, "\n")
 
-# "Use a for loop to count down from start to 1, then print "Liftoff!". Use a for loop with range(start, stop, step)."
+# "Use a for loop to count down from start to 1, then print 'Liftoff!'. Use a for loop with range(start, stop, step)."
 # Given:
 start = 10
  
 # <Your Code Here>
+# import time
+# haha
 start = range(10, 0, -1)
 for i in start:
     print(i)
     if i == 1:
         print("liftoff, i guess")
+print("\n")
+
+# "A younger student needs help with a times table. Use a for loop to print number x 1 through number x 10. Use a for loop with range(start, stop) and an f-string."
+# Given:
