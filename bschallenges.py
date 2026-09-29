@@ -79,9 +79,7 @@ age = 8
 has_adult = True
  
 # <Your Code Here>
-if height < 48:
-    print("ge tout")
-elif height >= 48:
+if height >= 48:
     if age < 10:
         if has_adult == False:
             print("ge tout")
@@ -89,6 +87,8 @@ elif height >= 48:
             print("go")
     else:
         print("go")
+else:
+    print("ge tout")
 print("\n")
 
 # ""
