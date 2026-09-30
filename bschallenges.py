@@ -129,14 +129,22 @@ print(groceries, "\n")
 start = 10
  
 # <Your Code Here>
-# import time
-# haha
+import time
 start = range(10, 0, -1)
 for i in start:
     print(i)
+     # time.sleep(1) # i am NOT waiting 10 seconds every time i do ts
     if i == 1:
         print("liftoff, i guess")
 print("\n")
 
 # "A younger student needs help with a times table. Use a for loop to print number x 1 through number x 10. Use a for loop with range(start, stop) and an f-string."
 # Given:
+number = 7
+ 
+# <Your Code Here>
+numberr = range(1, 11, 1)
+for m in numberr:
+    print(f"{number} * {m} = {number * m}")
+
+# 
