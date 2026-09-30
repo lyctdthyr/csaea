@@ -91,7 +91,7 @@ else:
     print("ge tout")
 print("\n")
 
-# ""
+# "Combine the variables with string concatenation to print a conference name tag like the example. Use strings (concatenate with +)."
 # Given:
 first = "Ada"
 last = "Lovelace"
@@ -100,6 +100,8 @@ school = "CSAEA"
 # who wants their last name to be lovelace cro
 print(first + last + school)
 print("just so you know putting your full name in a username is like... \n", "against internetting 101 gng \n")
+# that was mean
+# im a different person now i swear
 
 # "The list holds the prices of the items in a shopping cart. Use a loop to add them up and print the total and the number of items. Use a for loop and len()."
 # Given:
