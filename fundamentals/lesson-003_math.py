@@ -86,8 +86,8 @@ print(f'\nBook Cost: ${talecost}\nNotebook Cost: ${notecost}\nTotal: ${((tales *
 # Use the modulus operator to check if the number 57 is even or odd.
 # Bonus: use a conditional to print "Even" if it is even, and "Odd" if it is odd.
 
-variablewhichmayormaynotbefiftyseven = 57
-if variablewhichmayormaynotbefiftyseven % 2 == True:
+variableWhichMayOrMayNotBeFiftySeven = 57
+if variableWhichMayOrMayNotBeFiftySeven % 2 == True:
     print("odd")
 else:
     print("even")
