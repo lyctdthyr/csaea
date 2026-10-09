@@ -75,11 +75,11 @@ print(f'{area1} units')
 # A book costs $12.99 and a notebook costs $3.50.
 # Calculate the total cost for 3 books and 4 notebooks.
 
-talecost = 12.99
-notecost = 3.50
+taleCost = 12.99
+noteCost = 3.50
 tales = 3
 notes = 4
-taxratelol = 1.06625
+taxRateLol = 1.06625
 print(f'\nBook Cost: ${talecost}\nNotebook Cost: ${notecost}\nTotal: ${((tales * talecost + notes * notecost) * taxratelol):.2f}\n')
 
 # Challenge 4: Even or Odd
