@@ -41,4 +41,4 @@ print(f"your circle is about {math.pi * radius ** 2} square units large")
 import random
 print("you like dice? me too.")
 die = int(input("tell me, how many sides should a die have?\n"))
-print(f"i got...\n{random.randint(1, die)}\nnice?")
+print(f"very based\ni got...\n{random.randint(1, die)}\nlike, with said die")
