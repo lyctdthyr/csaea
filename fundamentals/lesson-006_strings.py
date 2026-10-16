@@ -66,4 +66,43 @@ print("\n")
 
 nameUno = input("forename, bro:\n")
 nameDos = input("surname, twin:\n")
-print(f'ah; "{nameDos}, {nameUno}"? hello')
+print(f'ah; "{nameDos}, {nameUno}"? hello\n')
+
+# i cried at the end of the movie when capitalizius said "it's capitalizn' time" and capitalized all over
+
+mmjsnnn = "mMjsnNNnsnjnjK jnJjHNNMmjSnNN"
+print("lower:", mmjsnnn.lower())
+print("uppar:", mmjsnnn.upper())
+print("cap:", mmjsnnn.capitalize())
+print("title:", mmjsnnn.title())
+
+print()
+
+# replace type shi
+
+waltuh = "my name is walter hartwell white."
+yo = waltuh.replace("walter hartwell white.", "skyler white, yo.")
+print(waltuh)
+print(yo)
+
+# join np split or smt
+
+list = "egg,apple,irish cheddar,cashew"
+print(f"{list} is a string bro")
+
+list0 = list.split(",")
+print(list0)
+
+list1 = " and ".join(list0)
+print(list1)
+print(type(list))
+print(type(list1))
+
+# Challenge 4: Word Mutation
+# Ask for a word and print it in reverse, in uppercase, and lowercase.
+
+veryQuiteMuchWord = input("\nword time. gimme a word:\n")
+wd_up = veryQuiteMuchWord.upper()
+wd_dn = veryQuiteMuchWord.lower()
+wd_rev = veryQuiteMuchWord[::1]
+print(f"\n{wd_up}\n{wd_dn}\n{wd_rev}")
