@@ -64,6 +64,6 @@ print("\n")
 # Ask the user for their first and last name, then format it as "Last, First".
 # Use concatenation or f-strings.
 
-nameUno = input("forename, sir:\n")
-nameDos = input("surname, sir:\n")
+nameUno = input("forename, bro:\n")
+nameDos = input("surname, twin:\n")
 print(f'ah; "{nameDos}, {nameUno}"? hello')
