@@ -115,8 +115,8 @@ print()
 # Challenge 2: Leap Year
 # Rules:
 #  - Years divisible by 4 are leap years
-#  - unless they're divisible by 100, then they're NOT leap years
-#  - unless they're also divisible by 400, then they ARE leap years
+#     a. unless they're divisible by 100, then they're NOT leap years
+#        1. unless they're also divisible by 400, then they ARE leap years
 
 year = 1984
 if year % 100 == 0 and year % 400 != 0:
