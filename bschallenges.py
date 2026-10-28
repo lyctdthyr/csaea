@@ -26,29 +26,27 @@ celsius = (fahrenheit - 32) * 5 / 9
 print(f"This is a full sentence and {fahrenheit} degrees Fahrenheit is {int(celsius)} degrees celsius. \n")
 
 # "Print the letter grade: 90+ is A, 80+ is B, 70+ is C, 60+ is D, anything lower is F. Change the score to test every grade. Use conditionals (if, elif, else) and comparisons."
-# fuck
 # Given:
 score = 84
  
 # <Your Code Here>
 if score < 0:
-    print("wow")
+    print("F, wow")
 elif 0 <= score < 60:
     print("F, very impressive...")
 elif 70 > score >= 60:
-    print("D, you suck lmao")
+    print("D")
 elif 80 > score >= 70:
-    print("C, you suck lmao")
+    print("C")
 elif 90 > score >= 80:
-    print("B, you suck lmao")
+    print("B")
 elif 100 > score >= 90:
-    print("A, pretty mid twin")
+    print("A")
 else:
     print("nerd")
 print("\n")
 
 # Print "Access granted" if the attempt matches the password exactly, otherwise print "Access denied". The given attempt was typed with Caps Lock on. Use comparisons and conditionals.
-# "Access granted" are we deadass
 # Given:
 password = "csaea2026"
 attempt = "CSAEA2026"
@@ -146,5 +144,3 @@ number = 7
 numberr = range(1, 11, 1)
 for m in numberr:
     print(f"{number} * {m} = {number * m}")
-
-# 
