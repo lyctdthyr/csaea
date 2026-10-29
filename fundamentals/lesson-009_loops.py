@@ -50,7 +50,7 @@ print()
 
 # Challenge 1: Sum Calculator
 # Use a for loop to find the sum of numbers from 1 to 10.
-# It'll be like sigma notation.
+# It'll be like sigma notation, or something.
 
 sum = 0
 for b in range(11):
@@ -60,7 +60,7 @@ print(sum)
 print()
 
 # while loop time
-# will loop as long as a givn condihtion is true
+# will loop as long as a givn codnition is true
 # if your condition never changes it will most likely run until all resources are exhausted
 # not so jolly situation
 
@@ -78,7 +78,7 @@ while userInput != "1":
 
 print()
 
-# with control sht too??
+# with control stf too??
 
 for i in range(11):
     print(i)
