@@ -56,7 +56,7 @@ def isFar(dis):
         return "erm distance can't acutally be negative so uh"
 dOne = isFar(2000)
 dTwo = isFar(1948)
-dThree = isFar(740)
+dThree = isFar(340)
 dFour = isFar(12)
 print(dOne)
 print(dTwo)
@@ -71,10 +71,101 @@ print()
 # First parameter:  the number i want doubled
 # Second paramater: how many times the loop should run 
 
-def doubler(a, b, c):
-    for i in range(b):
-        a = a * 2
-        c.append(a)
-list = []
-doubler(7, 8, list)
-print(list)
+def doubler(number, iterations):
+    list = []
+    a = number
+    for i in range(iterations):
+        a *= 2
+        list.append(a)
+    return list
+liste = doubler(7, 8)
+print(liste)
+
+print()
+
+# Challenge 1. 
+# Make a calculator with 4 procedures that accept two arguments each.
+# 1) add any two numbers and print the result
+# 2) subtract any two numbers and print the result
+# 3) divide any two numbers and print the result
+# 4) multiply any two numbers and print the result
+
+def addts(a, b):
+    return a + b
+def subts(a, b):
+    return a - b
+def multts(a, b):
+    return a * b
+def divts(a, b):
+    return a / b
+sum = addts(2, 3)
+dif = subts(2, 3)
+prod = multts(2, 3)
+quot = divts(2, 3)
+print(sum)
+print(dif)
+print(prod)
+print(quot)
+
+print()
+
+# Challenge 2
+# Make a function called average that:
+# 1) accepts five numbers
+# 2) returns the average
+# 3) print the returned value outside the function
+
+def mean(*args):
+    a = 0
+    for i in args:
+        a += i
+    a /= len(args)
+    return a
+average = mean(4, 5, 6, 9, 10, 76, 3, 1, 0, 0, 4, 8)
+print(average)
+
+print()
+
+# Challenge 3
+# Make a function called is_even that:
+# 1) accepts one number
+# 2) prints "Even" if the number is even
+# 3) prints "Odd" if the number is odd
+
+def evenodd(number): # i don't like the name is_even, hope this works
+    mod = number % 2
+    if mod == 1:
+        return "odd"
+    elif mod == 0:
+        return "even"
+    else:
+        raise TypeError("number must be an integer") # what was he cooking?
+even = evenodd(89)
+odd = evenodd(24)
+error = evenodd(180)
+print(even)
+print(odd)
+print(error)
+
+print()
+
+# Challenge 4
+# Make a function called "analyze_word" that counts how many vowels and consonants are in a word
+# Call the function with a sample one-word string and print the returned result outside the function
+
+def analyze_word(word):
+    consCt = 0
+    vowCt = 0
+    if isinstance(word, str) == False:
+        raise TypeError("word must be a string")
+    elif word.isalpha() == False:
+        raise ValueError("word must only contain alphabetical characters")
+    else:
+        for let in word:
+            if let in "aeiou":
+                vowCt += 1
+            else:
+                consCt += 1
+    return [vowCt, consCt, consCt + vowCt]
+fahhh = analyze_word("antidisestablishmentarianism")
+print(fahhh)
